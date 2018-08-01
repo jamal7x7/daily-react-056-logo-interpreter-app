@@ -1,0 +1,87 @@
+body {
+  background: #041A3E;
+  font-family: "Avenir next", "Roboto", "Montserrat-Regular", "Gotham", "open sans", "Lato", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #EEE;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  height: 100px;
+  padding: 20px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.App-container {
+  width: 1100px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: #062659;
+  -webkit-box-shadow: 0 90px 100px -50px rgba(0, 0, 0, 0.4), 0 50px 70px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 90px 100px -50px rgba(0, 0, 0, 0.4), 0 50px 70px 10px rgba(0, 0, 0, 0.1);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 90px 1fr;
+      grid-template-columns: 90px 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: ' side-bar artboard ';
+}
+
+.App-container ::-moz-selection {
+  background: #062659;
+}
+
+.App-container ::selection {
+  background: #062659;
+}
+
+.App-container .side-bar {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: side-bar;
+  background: rgba(0, 0, 0, 0.07);
+}
+
+.App-container .side-bar .reset {
+  background: #073175;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.App-container .artboard {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: artboard;
+  font-size: 80px;
+  font-weight: Bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/*# sourceMappingURL=App.css.map */
