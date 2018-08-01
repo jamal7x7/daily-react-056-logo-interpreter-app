@@ -1,6 +1,6 @@
 ## Daily-react-056-logo-interpreter-app
 
-> Challenge: create a student's time-management app.
+> Challenge: create a Logo(language) interpreter app.
 
 Work in progress: https://github.com/jamal7x7/daily-react-056-logo-interpreter-app
 
